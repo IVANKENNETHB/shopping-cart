@@ -183,3 +183,13 @@ header {
 .listcard  .count {
     margin: 0 10px;
 }
+
+.listcard {
+    max-height: 500px; 
+    overflow-y: auto; 
+}
+
+.listcard::-webkit-scrollbar {
+   display: none;
+}
+
